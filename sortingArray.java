@@ -9,17 +9,15 @@ public class sortingArray {
 		System.out.println("Enter length of arr");
 		int len = sc.nextInt();
 		int arr[] = new int[len];
-		int sum = 0;
 		
 		for (int i = 0; i < len; i++) 
 		{
 			System.out.println("Enter a number");
 			arr[i] = sc.nextInt();	
-			sum += arr[i];
 		}
 		
 		Arrays.sort(arr);
-		System.out.println("The sum of " +Arrays.toString(arr)+ " is " +sum);
+		System.out.println(Arrays.toString(arr));
 	}
 
 }
